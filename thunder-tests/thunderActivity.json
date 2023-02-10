@@ -1,0 +1,96 @@
+[
+  {
+    "_id": "dd1479e4-f55b-4785-a4ee-93a170d1806c",
+    "colId": "history",
+    "containerId": "",
+    "name": "health",
+    "url": "http://localhost:3333/health",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-11T06:38:08.812Z",
+    "modified": "2022-11-11T06:43:22.569Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "406d8dce-8589-467a-8a7c-e1a9da2706bb",
+    "colId": "history",
+    "containerId": "",
+    "name": "index",
+    "url": "http://localhost:3333/products",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-11T06:38:08.812Z",
+    "modified": "2022-11-11T06:55:03.931Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "7a2559d5-8c82-4488-9b4b-17d36a537775",
+    "colId": "history",
+    "containerId": "",
+    "name": "show",
+    "url": "http://localhost:3333/products/6377b528968d0c35093df525",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-11T06:38:08.812Z",
+    "modified": "2022-11-18T16:42:41.081Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "006f5975-a0e3-4889-8403-4c11608fcf9f",
+    "colId": "history",
+    "containerId": "",
+    "name": "delete",
+    "url": "http://localhost:3333/products/6377b528968d0c35093df525",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2022-11-11T06:38:08.812Z",
+    "modified": "2022-11-18T16:47:34.504Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "4cc5d330-d2b8-49e9-980d-def914e1d802",
+    "colId": "history",
+    "containerId": "",
+    "name": "create",
+    "url": "http://localhost:3333/products",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-11T06:38:59.859Z",
+    "modified": "2022-11-11T07:11:52.923Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"title\": \"Cadeira\",\n  \"description\": \"Quatro pernas\",\n  \"price\": 200\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "ecfda99a-8761-4051-a3f6-b7a709e9a4d7",
+    "colId": "history",
+    "containerId": "",
+    "name": "update",
+    "url": "http://localhost:3333/products/6377b528968d0c35093df525",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2022-11-11T06:38:59.859Z",
+    "modified": "2022-11-18T16:44:38.109Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"title\": \"Refrigerante\",\n  \"description\": \"Liquido\",\n  \"price\": 10\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
